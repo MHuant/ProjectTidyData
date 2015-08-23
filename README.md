@@ -195,3 +195,8 @@ V517	517	fBodyBodyAccJerkMag-std()
 V530	530	fBodyBodyGyroMag-std()
 V543	543	fBodyBodyGyroJerkMag-std()
 
+At this stage a txt file as been created and submitted to Coursera.
+
+PART 5
+
+Need to do the matrix with the mean.
