@@ -32,6 +32,7 @@ Finally the features will serve as column names
 
 But if you read properly the instructions it said "Extracts only the measurements on the mean and standard deviation for each measurement", so instead of using the 561 variables, you filter the features (easy with R studio) to notice how many variables deal really with mean (53 out of 561) and std (33 out of 561). So you should have less columns for the features, ie 88 instead of 561.
 
+To select the columns which respect this criteria, one can use the dplyr package with the select command.
 
 Short description of the project
 Study design and data processing
