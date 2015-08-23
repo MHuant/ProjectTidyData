@@ -86,9 +86,9 @@ total <- rbind(dftest1, dftrain1)
 
 At this stage one can remove all in between files and keep only the dataframes total (result of merge) as well as features (measurements) and activity label to have something clean at the end.
 
-PART 2
+PART 2 Extracts only the measurements on the mean and standard deviation for each measurement
 
-The instructions than says "Extracts only the measurements on the mean and standard deviation for each measurement", so instead of using the 561 variables, you filter the features (easy with the top left R studio panel but difficult to program then) to notice how many variables deal really with mean (53 out of 561) and std (33 out of 561). So you should have less columns for the features, ie 88 instead of 561.
+So instead of using the 561 variables, you filter the features (easy with the top left R studio panel but difficult to program then) to notice how many variables deal really with mean (53 out of 561) and std (33 out of 561). So you should have less columns for the features, ie 88 instead of 561.
 
 To select the columns which respect this criteria, one can use the dplyr package with the select command and transform dataframes into tables first
 
@@ -105,6 +105,6 @@ tk <- features[tokeep, ]
 
 cols_mean_std <- tbl_df(tk)
 
-
+One then subset the tidy table only with the columns that are in tk.
 
 
