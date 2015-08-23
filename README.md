@@ -84,6 +84,7 @@ dftrain1$Source <- "Train"
 
 total <- rbind(dftest1, dftrain1)
 
+At this stage one can remove all in between files and keep only the dataframes total (result of merge) as well as features (measurements) and activity label to have something clean at the end.
 
 PART 2
 
