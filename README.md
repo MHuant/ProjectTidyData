@@ -33,6 +33,16 @@ Finally the features will serve as column names
 But if you read properly the instructions it said "Extracts only the measurements on the mean and standard deviation for each measurement", so instead of using the 561 variables, you filter the features (easy with R studio) to notice how many variables deal really with mean (53 out of 561) and std (33 out of 561). So you should have less columns for the features, ie 88 instead of 561.
 
 To select the columns which respect this criteria, one can use the dplyr package with the select command.
+Since the features dataframe was organised with levels, I simplified the characters (mean and std) subsetting by using the following commands ( see forum thread https://class.coursera.org/getdata-031/forum/thread?thread_id=254 one of the reply of the TA):
+
+matched <- grep("mean", features$V2)
+matched2 <- grep("std", features$V2)
+tokeep <- c(matched, matched2)
+tk_test<- features[tokeep, ]
+# One get a list with V1 the variable number and V2 the measurement descriptions. Means are first and then are std. I did not sort them.
+library(dplyr)
+cols_mean_std <- tbl_df(tk_test)
+
 
 Short description of the project
 Study design and data processing
