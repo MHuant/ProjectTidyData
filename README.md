@@ -199,4 +199,4 @@ At this stage a txt file as been created and submitted to Coursera.
 
 PART 5
 
-Need to do the matrix with the mean.
+Need to do the matrix with the mean using the dplyr grouping functions (like a "Tableau croisé dynamique" - sorry don't know the name in English - in Excel
