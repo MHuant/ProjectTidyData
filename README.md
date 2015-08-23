@@ -10,11 +10,16 @@ The submit date is Sunday August 23 2015
 	
 Project Description from the class :
 
-One should download stats data about wearable computing about people doing 6 activities at the following site https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then create one R script called run_analysis.R that does the following. 
+One should download stats data about wearable computing about people doing 6 activities at the following site https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then create one R script called run_analysis.R that does the following :
+
 1.	Merges the training and the test sets to create one data set.
+
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+
 3.	Uses descriptive activity names to name the activities in the data set
+
 4.	Appropriately labels the data set with descriptive variable names. 
+
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Even though in the forum some people did, I did not automate the download part.
@@ -26,7 +31,7 @@ Then putting the data into dataframes you could understand in which order they f
 On the utmost left will go the subject_test data frame with 2947 rows, then you can put the Y (which represents the activity - you see there...# are 6 possibilities like the 6 activities, then put the x test, which contains the bulk of the data. I used cbind to do this.
 Finally the features will serve as column names
 
-But if you read properly the instructions it said "Extracts only the measurements on the mean and standard deviation for each measurement", so instead of using the 561 variables 
+But if you read properly the instructions it said "Extracts only the measurements on the mean and standard deviation for each measurement", so instead of using the 561 variables, you filter the features (easy with R studio) to notice how many variables deal really with mean (53 out of 561) and std (33 out of 561). So you should have less columns for the features, ie 88 instead of 561.
 Short description of the project
 Study design and data processing
 Collection of the raw data
