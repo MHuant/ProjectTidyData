@@ -108,3 +108,90 @@ cols_mean_std <- tbl_df(tk)
 One then subset the tidy table only with the columns that are in tk.
 
 
+PART 4	Appropriately labels the data set with descriptive variable names.
+
+So from the subsetting done in part 2, we have less variables than the 561 initial ones.
+
+The variables are as follow :
+
+Code	V2	Name
+V1	1	tBodyAcc-mean()-X
+V2	2	tBodyAcc-mean()-Y
+V3	3	tBodyAcc-mean()-Z
+V41	41	tGravityAcc-mean()-X
+V42	42	tGravityAcc-mean()-Y
+V43	43	tGravityAcc-mean()-Z
+V81	81	tBodyAccJerk-mean()-X
+V82	82	tBodyAccJerk-mean()-Y
+V83	83	tBodyAccJerk-mean()-Z
+V121	121	tBodyGyro-mean()-X
+V122	122	tBodyGyro-mean()-Y
+V123	123	tBodyGyro-mean()-Z
+V161	161	tBodyGyroJerk-mean()-X
+V162	162	tBodyGyroJerk-mean()-Y
+V163	163	tBodyGyroJerk-mean()-Z
+V201	201	tBodyAccMag-mean()
+V214	214	tGravityAccMag-mean()
+V227	227	tBodyAccJerkMag-mean()
+V240	240	tBodyGyroMag-mean()
+V253	253	tBodyGyroJerkMag-mean()
+V266	266	fBodyAcc-mean()-X
+V267	267	fBodyAcc-mean()-Y
+V268	268	fBodyAcc-mean()-Z
+V294	294	fBodyAcc-meanFreq()-X
+V295	295	fBodyAcc-meanFreq()-Y
+V296	296	fBodyAcc-meanFreq()-Z
+V345	345	fBodyAccJerk-mean()-X
+V346	346	fBodyAccJerk-mean()-Y
+V347	347	fBodyAccJerk-mean()-Z
+V373	373	fBodyAccJerk-meanFreq()-X
+V374	374	fBodyAccJerk-meanFreq()-Y
+V375	375	fBodyAccJerk-meanFreq()-Z
+V424	424	fBodyGyro-mean()-X
+V425	425	fBodyGyro-mean()-Y
+V426	426	fBodyGyro-mean()-Z
+V452	452	fBodyGyro-meanFreq()-X
+V453	453	fBodyGyro-meanFreq()-Y
+V454	454	fBodyGyro-meanFreq()-Z
+V503	503	fBodyAccMag-mean()
+V513	513	fBodyAccMag-meanFreq()
+V516	516	fBodyBodyAccJerkMag-mean()
+V526	526	fBodyBodyAccJerkMag-meanFreq()
+V529	529	fBodyBodyGyroMag-mean()
+V539	539	fBodyBodyGyroMag-meanFreq()
+V542	542	fBodyBodyGyroJerkMag-mean()
+V552	552	fBodyBodyGyroJerkMag-meanFreq()
+V4	4	tBodyAcc-std()-X
+V5	5	tBodyAcc-std()-Y
+V6	6	tBodyAcc-std()-Z
+V44	44	tGravityAcc-std()-X
+V45	45	tGravityAcc-std()-Y
+V46	46	tGravityAcc-std()-Z
+V84	84	tBodyAccJerk-std()-X
+V85	85	tBodyAccJerk-std()-Y
+V86	86	tBodyAccJerk-std()-Z
+V124	124	tBodyGyro-std()-X
+V125	125	tBodyGyro-std()-Y
+V126	126	tBodyGyro-std()-Z
+V164	164	tBodyGyroJerk-std()-X
+V165	165	tBodyGyroJerk-std()-Y
+V166	166	tBodyGyroJerk-std()-Z
+V202	202	tBodyAccMag-std()
+V215	215	tGravityAccMag-std()
+V228	228	tBodyAccJerkMag-std()
+V241	241	tBodyGyroMag-std()
+V254	254	tBodyGyroJerkMag-std()
+V269	269	fBodyAcc-std()-X
+V270	270	fBodyAcc-std()-Y
+V271	271	fBodyAcc-std()-Z
+V348	348	fBodyAccJerk-std()-X
+V349	349	fBodyAccJerk-std()-Y
+V350	350	fBodyAccJerk-std()-Z
+V427	427	fBodyGyro-std()-X
+V428	428	fBodyGyro-std()-Y
+V429	429	fBodyGyro-std()-Z
+V504	504	fBodyAccMag-std()
+V517	517	fBodyBodyAccJerkMag-std()
+V530	530	fBodyBodyGyroMag-std()
+V543	543	fBodyBodyGyroJerkMag-std()
+
