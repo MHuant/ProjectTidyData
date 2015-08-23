@@ -1,7 +1,7 @@
 # ProjectTidyData
 Project assignement for the get and cleaning data coursera class
 
-Thanks to the persons who will read this file. I tried my best
+Thanks to the persons who will read this file. I tried my best.
 I used the code book template for this file out the DSS community site, at  https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41 
 so thanks to Joris Schut
 
@@ -9,7 +9,7 @@ The submit date is Sunday August 23 2015
 	
 Project Description from the class :
 
-One should download stats data about wearable computing about people doing 6 activities at the following site https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then create one R script called run_analysis.R that does the following :
+One should download stats data about measurements from captors on wearable computing about people doing 6 activities at the following site https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and then create one R script called run_analysis.R that does the following :
 
 1.	Merges the training and the test sets to create one data set.
 
